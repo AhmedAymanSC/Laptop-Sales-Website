@@ -1,0 +1,33 @@
+.section {
+    padding-top: 76px;
+}
+
+.product {
+    text-align: center;
+    
+}
+
+.payment {
+    background-color: #FFC107;
+    position: fixed;
+    right: 5px;
+    top: 50%;
+    width: 5%;
+    text-align: center;
+    padding: 10px 8px;
+    border-radius: 12px;
+}
+
+.payment h4 {
+    margin: 2px;
+    font-size: larger;
+}
+
+.payment span {
+    display: block;
+    font-size: larger;
+}
+
+.payment:hover {
+    color: white;
+}

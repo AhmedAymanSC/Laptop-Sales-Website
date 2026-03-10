@@ -1,0 +1,36 @@
+.display {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 70px;
+    flex-wrap: wrap;
+}
+
+.Filterdata {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 30px 70px;
+    flex-wrap: wrap;
+}
+
+.Search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+}
+
+
+#SearchInput {
+    width: 40%;
+    margin: 0 auto;
+    border: 4px solid #FFC107;
+    border-radius: 8px;
+    padding: 8px 12px;
+}
+
+#SearchInput:focus {
+    border-color: #FFC107;
+    box-shadow: 1px 5px 5px rgba(0, 1, 2, 0.5);
+}

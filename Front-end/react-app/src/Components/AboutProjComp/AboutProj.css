@@ -1,0 +1,77 @@
+/* src/components/AboutProj.css */
+
+.about-project-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-project-left {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-project-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.about-project-left h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.about-project-left p,
+.about-project-left li {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.about-project-left h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.about-project-left ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.about-project-right img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+    .about-project-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .about-project-left {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+    .about-project-right {
+        margin-bottom: 20px;
+    }
+    .about-project-left h2 {
+        font-size: 1.8rem;
+    }
+    .about-project-left h3 {
+        font-size: 1.3rem;
+    }
+    .about-project-left p {
+        font-size: 1rem;
+    }
+}

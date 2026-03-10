@@ -1,0 +1,107 @@
+.div-image {
+    width: 120px;
+}
+
+.payment-page {
+    text-align: center;
+    padding: 50px;
+}
+
+.parent {
+    display: flex;
+    justify-content: space-around;
+    
+    gap: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.Visa-form {
+    padding: 20px;
+    border-radius: 8px;
+    width: 50%;
+}
+
+.Visa-form h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.Visa-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.Visa-form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.Visa-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.Visa-form button:hover {
+    background-color: #0056b3;
+}
+
+.display-pay {
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: -4px 0px 0px #FFC107
+}
+
+.cart-item {
+    margin-bottom: 20px;
+}
+
+.div-image {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.pay-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.item-div {
+    margin-bottom: 20px;
+}
+
+.display-pay h3 {
+    font-weight: 800;
+}
+
+@media (max-width: 768px) {
+    .parent {
+        flex-direction: column;
+        margin-left: 15px;
+    }
+}
+
+/* .parent {
+    
+    flex-direction: column;
+    
+    gap: 30px;
+    
+} */
+  

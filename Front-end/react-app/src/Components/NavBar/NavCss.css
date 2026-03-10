@@ -1,0 +1,42 @@
+.nav {
+    background-color: rgb(0, 0, 0);
+    padding: 10px 25px;
+    color: white;
+    font-size: larger;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-items {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    margin: 0 10px;
+}
+
+.anchor {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.logo-img {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
